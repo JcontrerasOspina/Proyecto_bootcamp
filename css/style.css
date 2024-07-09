@@ -6,8 +6,8 @@ body{
 header{
     display: flex;
     background-color: #F9AF4B ;
-    position: relative;
-    justify-content: space-between;
+    position: static;
+    justify-content: center;
 
 }
 
@@ -23,24 +23,24 @@ nav{
     background-color: white;
 }
 
-.menu{
-    list-style: none;
-    margin-top: 0;
-    padding-bottom: 20px;
+.ingreso{
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
 }
 
-.ingreso .menu{
+.menu-item{
     display: inline-block;
-    padding: 20px 20px 0 0;	
-    margin-right: 20px;
-}
-.ingreso a{
-    font-size: 20px;
     text-decoration: none;
+    width: 20%;
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    color: black;
+    padding: 15px;
 }
 
 .ingreso a:hover{
-    color: black;
+    color: rgb(255, 123, 0);
 }
 
 main{
