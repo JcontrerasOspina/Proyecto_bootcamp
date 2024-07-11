@@ -27,31 +27,37 @@
             <a href="pedido.html" class="menu-item">Realizar pedido</a>
             <a href="#" class="menu-item">API</a>  
         </nav>
-    <h1>Realizar pedido</h1>
-            <div class="pedido">
-                <div class="campo">
-                    <label for="">Nombre completo:</label>
-                    <input type="text" name="nombre" id="nombre">
-                </div>
-                <div class="campo">
-                    <label for="">Correo:</label>
-                    <input type="email" name="correo" id="correo">
-                </div>
-                <div class="campo">
-                    <label for="">Telefono:</label>
-                    <input type="text" name="telefono" id="telefono">
-                </div>
-                <div class="campo">
-                    <label for="">Direccion:</label>
-                    <input type="text" name="direccion" id="direccion">
-                </div>
-                <div class="pedir">
-                    <label for="">Pedido:</label>
-                    <textarea name="pedido" id="pedido">Escribe el pedido que vas a realizar</textarea>
-                </div>
-                <div class="enviar">
-                    <input type="submit" name="enviar" id="enviar" placeholder="Enviar">
-                </div>
+        <main>
+            <div class="realizar-pedido">
+                <h1>Realizar pedido</h1>
+                        <form class="formulario" name="contacto" id="contacto" method="get" action="pedido.html">
+                            <div class="pedido">
+                                <div class="campo">
+                                    <label for="">Nombre completo:</label>
+                                    <input type="text" name="nombre" id="nombre">
+                                </div>
+                                <div class="campo">
+                                    <label for="">Correo:</label>
+                                    <input type="email" name="correo" id="correo">
+                                </div>
+                                <div class="campo">
+                                    <label for="">Telefono:</label>
+                                    <input type="text" name="telefono" id="telefono">
+                                </div>
+                                <div class="campo">
+                                    <label for="">Direccion:</label>
+                                    <input type="text" name="direccion" id="direccion">
+                                </div>
+                                <div class="pedir">
+                                    <label for="">Pedido:</label>
+                                    <textarea name="pedido" id="pedido">Escribe el pedido que vas a realizar</textarea>
+                                </div>
+                                <div class="enviar">
+                                    <input type="submit" name="enviar" id="enviar" placeholder="Enviar">
+                                </div>
+                            </div>
+                        </form>
             </div>
+        </main>
 </body>
 </html>
