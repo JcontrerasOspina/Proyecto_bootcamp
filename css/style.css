@@ -173,3 +173,113 @@ footer h1{
 .btn{
     margin: 20px 0px;
 }
+
+@media (min-width: 597px){
+    .producto{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 17%;
+        margin-right: 8px;
+        row-gap: 3rem; 
+        padding-bottom: 3rem;
+    }
+    .menu-item{
+        display: block;
+        text-decoration: none;
+        width: 20%;
+        font-size: 20px;
+        font-family: "Fira Sans", sans-serif;
+        color: black;
+        padding: 5px;
+        text-align: center;
+    }
+    .informacion{
+        display: block;
+        padding-top: 20px;
+    }
+    .informacion img{
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    textarea{
+        width: 60%;
+        height: 10rem;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+} 
+
+@media (min-width: 1103px){
+    .producto{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 8%;
+        margin-right: 8px;
+        row-gap: 3rem; 
+        padding-bottom: 3rem;
+    }
+    .menu-item{
+        display: inline-block;
+        text-decoration: none;
+        width: 20%;
+        font-size: 30px;
+        font-family: "Fira Sans", sans-serif;
+        color: black;
+        padding: 15px;
+    }
+    .informacion{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+    .informacion img{
+        width: 450px;
+        height: 240px;
+    }
+    textarea{
+        width: 94%;
+        height: 10rem;
+        margin-left: 10px;
+        border-radius: 5px;
+    }    
+    
+} 
+
+ @media (min-width: 1514px){
+    .producto{
+        grid-template-columns: auto auto auto;
+        padding-bottom: 3rem;
+        margin-left: 7%;
+    }
+    .menu-item{
+        display: inline-block;
+        text-decoration: none;
+        width: 20%;
+        font-size: 30px;
+        font-family: "Fira Sans", sans-serif;
+        color: black;
+        padding: 15px;
+
+    }
+    .informacion{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+    .informacion img{
+        width: 450px;
+        height: 240px;
+    }
+    .pedido{
+        width: 50rem;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+    textarea{
+        width: 94%;
+        height: 10rem;
+        margin-left: 10px;
+        border-radius: 5px;
+    }      
+}
